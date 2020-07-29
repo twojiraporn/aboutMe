@@ -1,0 +1,182 @@
+.header,
+.header-eng {
+  font-size: 60px;
+  margin: 0.1em;
+}
+
+.header {
+  font-family: "Taviraj", serif;
+  font-weight: 700;
+  color: black;
+}
+
+.header-eng,
+.header-serie {
+  font-family: "Sigmar One", cursive;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.header-eng {
+  color: #c3bc12;
+}
+
+.header-serie {
+  color: white;
+  background-color: #05836d;
+  padding: 1em;
+  margin: 0.5em 2.7em;
+}
+
+.sub-header {
+  font-family: "Hanalei", cursive;
+  font-size: 80px;
+}
+
+button {
+  margin: 1em;
+}
+
+.center {
+  text-align: center;
+}
+
+.topic,
+.schedule {
+  padding: 0.5em 0 0 0;
+  margin: 0.3em;
+  height: 100px;
+  border-radius: 0.3rem;
+  font-family: "Timmana", sans-serif;
+  font-size: 40px;
+  border-color: transparent;
+  text-align: center;
+  font-weight: 500;
+}
+
+.topic {
+  background-color: #99cccc;
+  color: white;
+  width: 30%;
+}
+
+.schedule {
+  background-color: #05836d;
+  color: white;
+  width: 50%;
+}
+
+.table {
+  text-align: center;
+  font-size: 12px;
+  table-layout: auto;
+  width: 100%;
+  color: #ffffff;
+  font-weight: 600;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th {
+  color: #000000;
+}
+
+.seminar {
+  background-color: #05836d;
+}
+
+.web-tech {
+  background-color: #f99372;
+}
+
+.ip {
+  background-color: #f99372;
+}
+
+.os {
+  background-color: #05836d;
+}
+
+.sa {
+  background-color: #99cccc;
+}
+
+.erp {
+  background-color: #99cccc;
+}
+
+.se {
+  background-color: #99cccc;
+}
+
+.box {
+  margin: 1em 20em;
+}
+
+.image img {
+  width: 100px;
+  height: 100px;
+}
+
+#name {
+  font-size: 60px;
+  margin: 1em 0em 0.2em 0em;
+  font-family: "Bungee Shade", cursive;
+  color: #05836d;
+}
+
+#pic-two {
+  width: 93%;
+}
+
+.info {
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 0.4em;
+  color: white;
+  margin: 1.5em;
+  border-radius: 2em;
+  background-color: #f99372;
+}
+
+.card-left {
+  margin: 2em 3em 1em 10em;
+}
+
+.card-right {
+  margin: 2em 10em 1em 3em;
+}
+
+.card-title {
+  font-weight: 900;
+  color: white;
+  background-color: #f99372;
+  padding: 1em;
+  margin: -1.3em;
+}
+
+.credit {
+  color: #05836d;
+  font-weight: bold;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #05836d;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #c3bc12;
+}

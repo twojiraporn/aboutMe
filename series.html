@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Series</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="background-color: #99cccc;">
+    <a href="index.html"
+      ><button type="button" class="btn btn-outline-dark">Back</button></a
+    >
+    <div class="center credit">Cr. NETFLIX</div>
+    <div class="container">
+      <div class="header-serie center">
+        LIST OF SERIES<br />THAT IMPRESSED ME
+      </div>
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card card-left">
+            <img src="./img/merlin.png" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title center">MERLIN</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card card-right">
+            <img src="./img/ashes-love.png" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title center">ASHES OF LOVE</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card card-left">
+            <img src="./img/doctor-stranger.png" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title center">DOCTOR STRANGER</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card card-right">
+            <img src="./img/kingdom.png" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title center">KINGDOM</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card card-left">
+            <img src="./img/prison-break.png" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title center">PRISON BREAK</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card card-right">
+            <img src="./img/star.png" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title center">MY LOVE FROM THE STAR</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+      <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+    </div>
+  </body>
+</html>
