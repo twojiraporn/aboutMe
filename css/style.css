@@ -66,6 +66,11 @@ button {
   width: 50%;
 }
 
+.schedule:hover,
+.topic:hover {
+  background-color: #c3bc12;
+}
+
 .table {
   text-align: center;
   font-size: 12px;
