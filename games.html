@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Games</title>
+    <title>Game</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -30,10 +30,87 @@
       ><button type="button" class="btn btn-outline-dark">Back</button></a
     >
     <div class="header-eng center">
-      <span>MY FARM</span>
+      <span>OML FARM</span>
     </div>
     <div class="sub-header center">
       <span>F A R M&nbsp;&nbsp;&nbsp;&nbsp;T O G E T H E R</span>
+    </div>
+    <div class="center">
+      <div class="content">Dinner with Lover</div>
+      <div><img src="./img/eat.png" class="pic-farm" /></div>
+      <div class="content">Here we go !!</div>
+      <div><img src="./img/train.png" class="pic-farm" /></div>
+      <div class="content">let's ride</div>
+      <div><img src="./img/train2.png" class="pic-farm" /></div>
+      <div class="content">I'll take a freekick</div>
+      <div><img src="./img/football.png" class="pic-farm" /></div>
+      <div class="content">It's shower time</div>
+      <div><img src="./img/bath.png" class="pic-farm" /></div>
+      <div class="content">funny moment on skateboard</div>
+      <div><img src="./img/surf" class="pic-farm" /></div>
+      <div><img src="./img/surf2.png" class="pic-farm" /></div>
+      <div class="content">chill by the sea</div>
+      <div><img src="./img/sleep.png" class="pic-farm" /></div>
+      <div class="content">fish pond</div>
+      <div><img src="./img/fish.png" class="pic-farm" /></div>
+      <div class="content">camp fire inspire my heart</div>
+      <div><img src="./img/camp.png" class="pic-farm" /></div>
+      <div class="content">beauty in the flower</div>
+      <div><img src="./img/flower.png" class="pic-farm" /></div>
+      <div class="content">my heart will go on the snow</div>
+      <div><img src="./img/fruit.png" class="pic-farm" /></div>
+      <div class="content">a beautiful fountain</div>
+      <div><img src="./img/fountain.png" class="pic-farm" /></div>
+      <div class="content">HI reindeer</div>
+      <div><img src="./img/reindeer.png" class="pic-farm" /></div>
+      <div class="content">Yellow Bee !!</div>
+      <div><img src="./img/bee.png" class="pic-farm" /></div>
+      <div class="content">Rainbow path melted my heart</div>
+      <div><img src="./img/rainbow.png" class="pic-farm" /></div>
+      <div class="content">Wind turbine</div>
+      <div><img src="./img/turbine.png" class="pic-farm" /></div>
+      <div class="content">my lovely dog</div>
+      <div><img src="./img/tool.png" class="pic-farm" /></div>
+      <div><img src="./img/tree.png" class="pic-farm" /></div>
+      <div class="content">Christmas has begun</div>
+      <div><img src="./img/tree2.png" class="pic-farm" /></div>
+      <div class="content">What's that tree ?</div>
+      <div><img src="./img/tree3.png" class="pic-farm" /></div>
+      <div class="content">lighthouse....</div>
+      <div><img src="./img/sea.png" class="pic-farm" /></div>
+      <div class="content">Lighthouse with aurora</div>
+      <div><img src="./img/sea2.png" class="pic-farm" /></div>
+      <div class="content">sending love</div>
+      <div><img src="./img/kiss.png" class="pic-farm" /></div>
+      <div><img src="./img/kiss2.png" class="pic-farm" /></div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+      <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
     </div>
   </body>
 </html>

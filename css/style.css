@@ -14,11 +14,11 @@
 .header-serie {
   font-family: "Sigmar One", cursive;
   font-weight: 400;
-  font-size: 60px;
 }
 
 .header-eng {
   color: #c3bc12;
+  font-size: 80px;
 }
 
 .header-serie {
@@ -26,11 +26,14 @@
   background-color: #05836d;
   padding: 1em;
   margin: 0 2.7em 0.3em 2.7em;
+  font-size: 60px;
 }
 
 .sub-header {
   font-family: "Hanalei", cursive;
-  font-size: 80px;
+  font-size: 100px;
+  margin: -0.5em 0 0.3em 0;
+  color: #7c4939;
 }
 
 button {
@@ -205,4 +208,14 @@ button {
 
 .card-body {
   background-color: #f99372;
+}
+
+.pic-farm {
+  width: 60%;
+  margin: 1em;
+}
+
+.content {
+  font-size: 20px;
+  margin: -0.3px;
 }
