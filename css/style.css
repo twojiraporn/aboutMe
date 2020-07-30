@@ -25,7 +25,7 @@
   color: white;
   background-color: #05836d;
   padding: 1em;
-  margin: 0.5em 2.7em;
+  margin: 0 2.7em 0.3em 2.7em;
 }
 
 .sub-header {
@@ -154,11 +154,10 @@ button {
 }
 
 .card-title {
-  font-weight: 900;
+  padding: 0.3em;
+  font-weight: bold;
   color: white;
-  background-color: #f99372;
-  padding: 1em;
-  margin: -1.3em;
+  font-size: 16px;
 }
 
 .credit {
@@ -184,4 +183,26 @@ button {
 
 #myBtn:hover {
   background-color: #c3bc12;
+}
+
+.link-netflix {
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  margin: -0.2em;
+  width: 90%;
+  height: 50px;
+  cursor: pointer;
+  font-family: "Jockey One", sans-serif;
+}
+
+.link-netflix:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.card-body {
+  background-color: #f99372;
 }
