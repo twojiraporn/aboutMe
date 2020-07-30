@@ -84,7 +84,9 @@
           </tr>
           <tr>
             <th scope="row" class="monday-color">Monday</th>
-            <td colspan="6" class="seminar">Seminar(2)</td>
+            <td colspan="6" class="seminar" onclick="showDetail('seminar')">
+              Seminar(2)
+            </td>
             <td></td>
             <td></td>
             <td></td>
@@ -102,13 +104,17 @@
           </tr>
           <tr>
             <th scope="row" class="tuesday-color">Tuesday</th>
-            <td colspan="4" class="web-tech">Web Tech(1)</td>
+            <td colspan="4" class="web-tech" onclick="showDetail('web-tech')">
+              Web Tech(1)
+            </td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
-            <td colspan="4" class="web-tech">Web Tech(11)</td>
+            <td colspan="4" class="web-tech" onclick="showDetail('web-tech')">
+              Web Tech(11)
+            </td>
             <td></td>
             <td></td>
             <td></td>
@@ -123,18 +129,18 @@
             <td></td>
             <td></td>
             <td></td>
-            <td colspan="3" class="ip">IP(1)</td>
+            <td colspan="3" class="ip" onclick="showDetail('ip')">IP(1)</td>
             <td></td>
-            <td colspan="4" class="os">OS(1)</td>
-            <td colspan="4" class="sa">SA(1)</td>
-            <td colspan="4" class="sa">SA(11)</td>
+            <td colspan="4" class="os" onclick="showDetail('os')">OS(1)</td>
+            <td colspan="4" class="sa" onclick="showDetail('sa')">SA(1)</td>
+            <td colspan="4" class="sa" onclick="showDetail('sa')">SA(11)</td>
           </tr>
           <tr>
             <th scope="row" class="thursday-color">Thursday</th>
-            <td colspan="4" class="se">SE(11)</td>
+            <td colspan="4" class="se" onclick="showDetail('se')">SE(11)</td>
             <td></td>
             <td></td>
-            <td colspan="4" class="se">SE(1)</td>
+            <td colspan="4" class="se" onclick="showDetail('se')">SE(1)</td>
             <td></td>
             <td></td>
             <td></td>
@@ -152,9 +158,9 @@
             <td></td>
             <td></td>
             <td></td>
-            <td colspan="3" class="ip">IP(1)</td>
+            <td colspan="3" class="ip" onclick="showDetail('ip')">IP(1)</td>
             <td></td>
-            <td colspan="4" class="os">OS(1)</td>
+            <td colspan="4" class="os" onclick="showDetail('os')">OS(1)</td>
             <td></td>
             <td></td>
             <td></td>
@@ -166,8 +172,8 @@
           </tr>
           <tr>
             <th scope="row" class="saturday-color">Saturday</th>
-            <td colspan="4" class="erp">ERP(1)</td>
-            <td colspan="4" class="erp">ERP(11)</td>
+            <td colspan="4" class="erp" onclick="showDetail('erp')">ERP(1)</td>
+            <td colspan="4" class="erp" onclick="showDetail('erp')">ERP(11)</td>
             <td></td>
             <td></td>
             <td></td>
@@ -183,6 +189,8 @@
           </tr>
         </tbody>
       </table>
+      <div id="detail" class="center"></div>
     </div>
+    <script src="./js/schedule.js"></script>
   </body>
 </html>
